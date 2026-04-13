@@ -1,6 +1,6 @@
 cask "usage-bar" do
-  version "0.0.6"
-  sha256 "e63ad3a23b9e098ba70a01765880857b041bd385c2073a260b41ca6b7b8ce81c"
+  version "0.0.7"
+  sha256 "f1df933f6860ad73610ee6ac393af975be015daa53a742b1d6e207a8efab1593"
 
   url "https://github.com/SHLE1/usage-bar/releases/download/v#{version}/UsageBar-v#{version}-unsigned.dmg"
   name "UsageBar"

@@ -1,8 +1,8 @@
 cask "usage-bar" do
-  version "0.1.1"
-  sha256 "7c621713cb85e10e80e7e46d6a8be608915fdf3ecf38ad39d0701875264298f5"
+  version "0.1.2"
+  sha256 "ae0cc27015bb008454aa0e31dbac11a1521173f25cf56f4a263b62d8ad4b1474"
 
-  url "https://github.com/SHLE1/usage-bar/releases/download/v0.1.1/UsageBar-v0.1.1-unsigned.dmg"
+  url "https://github.com/SHLE1/usage-bar/releases/download/v0.1.2/UsageBar-v0.1.2-unsigned.dmg"
   name "UsageBar"
   desc "Menu bar app for AI provider usage monitoring"
   homepage "https://github.com/SHLE1/usage-bar"

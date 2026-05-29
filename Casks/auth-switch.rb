@@ -1,15 +1,15 @@
 cask "auth-switch" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.1.0"
+  version "1.2.0"
 
   if Hardware::CPU.arm?
-    sha256 "5dc660515e9b2a15eea04c85fdf6d2fa66415e14bccad4decdc6cf09cd499f73"
+    sha256 "16b1527235652a7daf2286a7735444f1f389dba030b45ddae2fb16c25de375f3"
   else
-    sha256 "12821c99547d28ee74bf3918a813d79eeb704323916e25d9a7a37f1fb503f736"
+    sha256 "c0b4cbe488eedc4d900e25592b3171f8ce81f2b85206b5e197c9906db53103c0"
   end
 
-  url "https://github.com/SHLE1/auth-switch/releases/download/v1.1.0/auth-switch-#{version}-#{arch}.dmg"
+  url "https://github.com/SHLE1/auth-switch/releases/download/v1.2.0/auth-switch-#{version}-#{arch}.dmg"
   name "auth-switch"
   desc "Local desktop app for switching OpenAI Codex auth.json accounts"
   homepage "https://github.com/SHLE1/auth-switch"

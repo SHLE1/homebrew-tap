@@ -1,8 +1,8 @@
 cask "cc-switch-lite" do
-  version "1.0.0"
-  sha256 "a96cfb8671f1215900fc3daa9240f5e040da2db9fe067e4191aa8db36184067e"
+  version "1.0.1"
+  sha256 "2237f8c71bf50b1258bfc80b31983769dbdb5bc9bfe87c37573a3ef8760bab98"
 
-  url "https://github.com/SHLE1/cc-switch-lite/releases/download/v1.0.0/CC-Switch-Lite-v1.0.0-macOS.dmg",
+  url "https://github.com/SHLE1/cc-switch-lite/releases/download/v1.0.1/CC-Switch-Lite-v1.0.1-macOS.dmg",
       verified: "github.com/SHLE1/cc-switch-lite/"
   name "CC Switch Lite"
   desc "Provider switcher for Claude Code, Codex, and Gemini CLI"
